@@ -1,0 +1,22 @@
+[package]
+name = "spilit-contract"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cosmwasm-std = "1.2.7"
+cosmwasm-storage = "1.2.7"
+cw-storage-plus = "1.1.0"
+cw0 = "0.10.3"
+cw2 = "1.1.0"
+hex = "0.4.3"
+schemars = "0.8.12"
+serde = { version = "1.0.166", features = ["derive"], default-features = false }
+thiserror = "1.0.40"
+tiny-keccak = { version = "2.0.2", features = ["keccak"] }
+unicode-segmentation = "1.10.1"
+cosmwasm-schema = "1.2.7"
