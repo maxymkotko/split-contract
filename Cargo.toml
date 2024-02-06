@@ -1,5 +1,5 @@
 [package]
-name = "spilit-contract"
+name = "split-contract"
 version = "0.1.0"
 edition = "2021"
 
